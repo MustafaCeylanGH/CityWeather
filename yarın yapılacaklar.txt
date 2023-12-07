@@ -1,0 +1,2 @@
+-Her şey tamamsa netlify ve github yüklenecek
+-Yeni proje araştırılacak zaman kalırsa taslak yapılacak

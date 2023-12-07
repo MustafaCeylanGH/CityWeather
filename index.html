@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CityWeather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <ion-icon class="main-header-icon" name="cloudy-outline"></ion-icon>
+        <h1 class="main-header">CityWeather</h1>
+      </header>
+
+      <div class="main-page">
+        <section class="main-section">
+          <div class="main-text">
+            <h2 class="secondary-header">
+              "Choose Your City, Check Weather Instantly!"
+            </h2>
+            <p class="secondary-header-text">
+              On our website, you can easily access real-time weather data by
+              searching for any city you want. Using our user-friendly
+              interface, you can enter the name of the city you want to check
+              the weather for, and instantly discover temperature, humidity, and
+              other weather details. Checking the weather has never been this
+              easy!
+            </p>
+          </div>
+          <img class="main-img" src="Img/Weather_sky.jpg" alt="Weather sky" />
+        </section>
+      </div>
+
+      <div class="secondary-page hidden">
+        <h2 class="city-name">
+          Weather Today in <span class="current-city-name">Isparta</span>
+        </h2>
+        <h3 class="weather-description">"Hava bulutlu"</h3>
+        <ul class="weather-details">
+          <div class="weather-details-flexbox">
+            <ion-icon
+              class="weather-details-icons"
+              name="swap-vertical-outline"
+            ></ion-icon>
+            <li class="latitude">Latitude:</li>
+          </div>
+
+          <div class="weather-details-flexbox">
+            <ion-icon
+              class="weather-details-icons"
+              name="swap-horizontal-outline"
+            ></ion-icon>
+            <li class="longitude">Longitude:</li>
+          </div>
+
+          <div class="weather-details-flexbox">
+            <ion-icon
+              class="weather-details-icons"
+              name="timer-outline"
+            ></ion-icon>
+            <li class="pressure">Pressure:</li>
+          </div>
+
+          <div class="weather-details-flexbox">
+            <ion-icon
+              class="weather-details-icons"
+              name="thermometer-outline"
+            ></ion-icon>
+            <li class="temp">Temperature:</li>
+          </div>
+
+          <div class="weather-details-flexbox">
+            <ion-icon
+              class="weather-details-icons"
+              name="water-outline"
+            ></ion-icon>
+            <li class="humidity">Humidity:</li>
+          </div>
+          <div class="weather-details-flexbox">
+            <ion-icon
+              class="weather-details-icons"
+              name="arrow-forward-outline"
+            ></ion-icon>
+            <li class="wind">Wind:</li>
+          </div>
+        </ul>
+      </div>
+
+      <section class="secondary-section">
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter city name..."
+          maxlength="30"
+        />
+        <button class="btn-search">
+          <ion-icon class="search-icon" name="search-outline"></ion-icon>
+        </button>
+      </section>
+
+      <footer class="footer">
+        <p class="copyright">
+          Copyright &copy; <span class="current-year">Current year</span> by
+          Mustafa Ceylan, All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

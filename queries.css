@@ -1,0 +1,114 @@
+/**************************/
+/* BELOW 1344px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 78em) {
+  .secondary-header {
+    font-size: 1.6rem;
+    text-align: center;
+    max-width: 500px;
+    padding: 1.2rem 3.2rem;
+  }
+
+  .main-img {
+    max-height: 200px;
+    max-width: 35%;
+  }
+
+  .secondary-header-text {
+    font-size: 0.8rem;
+    padding: 1.2rem 6.4rem;
+  }
+
+  .secondary-section {
+    margin-bottom: 6.4;
+    gap: 0.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .main-section {
+    padding: 1.2rem 2.4rem;
+  }
+
+  .secondary-header-text {
+    font-size: 0.8rem;
+    padding: 1.2rem 3.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .main-section {
+    padding: 0.8rem 1.2rem;
+  }
+  .secondary-header {
+    font-size: 1.4rem;
+    text-align: center;
+    max-width: 500px;
+    padding: 1.2rem 1.6rem;
+  }
+
+  .secondary-header-text {
+    font-size: 0.7rem;
+    padding: 1.2rem 3.2rem;
+    text-align: center;
+  }
+
+  .secondary-section {
+    margin-bottom: 6.4;
+    gap: 0.2rem;
+  }
+
+  .weather-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/**************************/
+/* BELOW 560px (Phones) */
+/**************************/
+
+@media (max-width: 35em) {
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .main-img {
+    max-width: 250px;
+    max-width: 50%;
+  }
+
+  .secondary-section {
+    gap: 1rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .secondary-header-text {
+    padding: 1.2rem 2.4rem;
+    text-align: center;
+  }
+
+  .input {
+    padding: 0.6rem 1.6rem;
+    max-width: 16rem;
+  }
+
+  .btn-search {
+    max-width: 2.4rem;
+    width: 100%;
+    padding: 0.2rem;
+  }
+}

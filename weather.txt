@@ -1,0 +1,5 @@
+                              CityWeather
+
+            "Choose Your City, Instantly Check the Weather!"
+
+On our website, you can easily access real-time weather data by searching for any city you want. Using our user-friendly interface, you can enter the name of the city you want to check the weather for, and instantly discover temperature, humidity, and other weather details. Checking the weather has never been this easy!
